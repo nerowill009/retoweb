@@ -1,6 +1,6 @@
 ## Reto de Automatización Web - Sauce Demo
 
-Este proyecto es un reto de automatización web de la página **Sauce Demo** utilizando herramientas y tecnologías como **Selenium**, **Serenity**, **Cucumber**, y **Aqua**.
+Automatización web de la página **Sauce Demo** utilizando herramientas y tecnologías como **Selenium**, **Serenity**, **Cucumber**, y **Aqua**.
 
 ## Tecnologías y Herramientas
 
@@ -44,7 +44,7 @@ Asegúrate de tener las siguientes herramientas instaladas antes de ejecutar el 
 
 Para ejecutar las pruebas, simplemente usa el siguiente comando de Maven:
 
-``bash
+```bash
 mvn clean test
 
 ## Reportes

@@ -46,6 +46,7 @@ Para ejecutar las pruebas, simplemente usa el siguiente comando de Maven:
 
 ```bash
 mvn clean test
+```
 
 ## Reportes
 Serenity generará reportes detallados después de la ejecución de las pruebas. Los reportes estarán disponibles en el directorio target/site/serenity/. Para visualizar el reporte, abre el archivo index.html en tu navegador.

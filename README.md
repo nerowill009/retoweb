@@ -1,4 +1,4 @@
-# Reto de Automatización Web - Sauce Demo
+## Reto de Automatización Web - Sauce Demo
 
 Este proyecto es un reto de automatización web de la página **Sauce Demo** utilizando herramientas y tecnologías como **Selenium**, **Serenity**, **Cucumber**, y **Aqua**.
 
@@ -25,7 +25,7 @@ Asegúrate de tener las siguientes herramientas instaladas antes de ejecutar el 
 1. Clona este repositorio a tu máquina local:
 
     ```bash
-    git clone https://github.com/jesalejo/retoInetum.git
+    git clone https://github.com/nerowill009/retoweb.git
     ```
 
 2. Navega al directorio del proyecto:
@@ -44,24 +44,9 @@ Asegúrate de tener las siguientes herramientas instaladas antes de ejecutar el 
 
 Para ejecutar las pruebas, simplemente usa el siguiente comando de Maven:
 
-```bash
+``bash
 mvn clean test
-```
+
 ## Reportes
-
-**Serenity** generará reportes detallados después de la ejecución de las pruebas. Los reportes estarán disponibles en el directorio `target/site/serenity/`. Para visualizar el reporte, abre el archivo `index.html` en tu navegador.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, sigue estos pasos:
-
-1. Haz un **fork** del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz un **commit** (`git commit -am 'Agregué nueva funcionalidad'`).
-4. Haz un **push** a tu rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un **pull request**.
-
-## Licencia
-
-Este proyecto no tiene una licencia específica por el momento. Si deseas usarlo o distribuirlo, por favor respeta las leyes de propiedad intelectual y asegúrate de dar crédito a los autores originales.
+Serenity generará reportes detallados después de la ejecución de las pruebas. Los reportes estarán disponibles en el directorio target/site/serenity/. Para visualizar el reporte, abre el archivo index.html en tu navegador.
 

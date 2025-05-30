@@ -1,4 +1,4 @@
-## Reto de Automatización Web - Selenium - POM
+## Reto de Automatización Web - Frontend- Selenium - POM
 
 Automatización web de la página **Sauce Demo** 
 

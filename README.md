@@ -1,10 +1,9 @@
-## Reto de Automatización Web - Sauce Demo
+## Reto de Automatización Web 
 
-Automatización web de la página **Sauce Demo** utilizando herramientas y tecnologías como **Selenium**, **Serenity**, **Cucumber**, y **Aqua**.
+Automatización web de la página **Sauce Demo** 
 
 ## Tecnologías y Herramientas
 
-- **Aqua:** Herramienta de automatización de pruebas que facilita la creación y gestión de pruebas.
 - **Selenium WebDriver:** Para la automatización de pruebas de interacción con el navegador.
 - **Cucumber:** Para realizar pruebas basadas en comportamiento (BDD).
 - **Serenity BDD:** Para gestionar las pruebas automatizadas y generar reportes detallados.
@@ -28,26 +27,14 @@ Asegúrate de tener las siguientes herramientas instaladas antes de ejecutar el 
     git clone https://github.com/nerowill009/retoweb.git
     ```
 
-2. Navega al directorio del proyecto:
-
-    ```bash
-    cd tu_repositorio
-    ```
-
-3. Instala las dependencias con **Maven**:
-
-    ```bash
-    mvn clean install
-    ```
 
 ## Ejecución de las Pruebas
 
-Para ejecutar las pruebas, simplemente usa el siguiente comando de Maven:
+Usar la clase runner para la ejecucion de las pruebas o ejecutar el comando maven: 
+clean test "-Dcucumber.options=--tags @Caso1"
 
-```bash
-mvn clean test
-```
 
 ## Reportes
-Serenity generará reportes detallados después de la ejecución de las pruebas. Los reportes estarán disponibles en el directorio target/site/serenity/. Para visualizar el reporte, abre el archivo index.html en tu navegador.
+Serenity generará reportes detallados después de la ejecución de las pruebas. 
+Los reportes estarán disponibles en el directorio target/site/serenity/. Para visualizar el reporte, abre el archivo index.html en tu navegador.
 

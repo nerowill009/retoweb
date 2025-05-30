@@ -4,7 +4,7 @@ Automatización web de la página **Sauce Demo**
 
 ## Tecnologías y Herramientas
 
-- **Selenium WebDriver:** Para la automatización de pruebas de interacción con el navegador.
+- **Selenium WD:** Para la automatización de pruebas de interacción con el navegador.
 - **Cucumber:** Para realizar pruebas basadas en comportamiento (BDD).
 - **Serenity BDD:** Para gestionar las pruebas automatizadas y generar reportes detallados.
 - **JUnit 5:** Framework de pruebas para la ejecución y gestión de las pruebas.
@@ -16,8 +16,7 @@ Asegúrate de tener las siguientes herramientas instaladas antes de ejecutar el 
 
 - **Java 11** o superior.
 - **Maven** para manejar las dependencias del proyecto.
-- Un navegador compatible con **Selenium** (como **Google Chrome** o **Firefox**).
-- **Aqua** debe estar configurado para gestionar las pruebas (si aún no lo has hecho, revisa la documentación de Aqua para su configuración).
+- Un navegador compatible con **Selenium**
 
 ## Instalación
 
